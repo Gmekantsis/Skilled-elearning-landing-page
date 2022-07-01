@@ -1,0 +1,58 @@
+@media all and (min-width: 1440px) {
+  .head {
+    display: none;
+  }
+
+  .top-image-desktop {
+    position: absolute;
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-top: -250px;
+
+    transform: translateX(-340px);
+  }
+
+  .main-image-tablet {
+    display: none;
+  }
+
+  .main-image-mobile {
+    display: none;
+  }
+
+  .header-text {
+    margin-left: 165px;
+  }
+
+  .header-button {
+    margin-right: 165px;
+  }
+
+  .first-wrapper {
+    flex-direction: row;
+    overflow: hidden;
+  }
+
+  .main-card {
+    padding-left: 30px;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+    margin-right: auto;
+  }
+
+  .second-wrapper {
+    grid-template-columns: auto auto auto;
+  }
+
+  .footer-text {
+    margin-left: 165px;
+  }
+
+  .footer-button {
+    margin-right: 165px;
+  }
+}
+

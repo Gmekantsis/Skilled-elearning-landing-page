@@ -1,0 +1,296 @@
+@media all and (min-width: 768px) {
+  @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap");
+
+  .main-image-mobile {
+    display: none;
+  }
+
+  .top-image-desktop {
+    display: none;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0 auto;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+  }
+
+  .first-wrapper {
+    flex-direction: row;
+    overflow: hidden;
+  }
+
+  .main-card {
+    padding-left: 30px;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+    margin-left: auto;
+  }
+
+  .main-image-tablet {
+    display: block;
+    margin-left: auto;
+
+    transform: translateY(-100px);
+  }
+
+  .main-image-wrapper {
+    margin-left: auto;
+    width: 400px;
+    height: 640px;
+  }
+
+  .head {
+    display: none;
+  }
+
+  header {
+    margin: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+  }
+
+  .small-card-one {
+    margin-top: 42px;
+    display: flex;
+    align-items: center;
+    width: 339px;
+    height: 259px;
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    border-radius: 10px;
+    padding-left: 28px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+  }
+
+  .second-wrapper {
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    row-gap: 50px;
+  }
+
+  .header-text {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35px;
+    color: #13183f;
+    margin-left: 30px;
+  }
+
+  .header-button {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    background: #13183f;
+    border-radius: 28px;
+    color: white;
+    width: 140px;
+    height: 48px;
+    border: none;
+  }
+
+  .header-button:hover {
+    background: #666ca3;
+    cursor: pointer;
+  }
+
+  h1 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: #13183f;
+  }
+
+  .main-card-text {
+    margin-top: 26px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #83869a;
+  }
+
+  .main-card-button {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    border-radius: 31.5px;
+    margin-top: 24px;
+    width: 165px;
+    height: 56px;
+    border: none;
+  }
+
+  .main-card-button:hover {
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    cursor: pointer;
+  }
+
+  .logo {
+    margin-top: -28px;
+    margin-left: 28px;
+  }
+
+  .small-card-two {
+    margin-top: 40px;
+    width: 343px;
+    height: 259px;
+
+    background: #ffffff;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 10px;
+  }
+
+  h3 {
+    margin-top: 24px;
+    margin-left: 28px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    color: #13183f;
+  }
+
+  .small-card-text {
+    margin-top: 16px;
+    margin-left: 28px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #83869a;
+  }
+
+  .second-wrapper-button {
+    display: flex;
+    margin-top: 24px;
+    margin-left: 28px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #f74780;
+    cursor: pointer;
+  }
+
+  .small-card-three {
+    margin-top: 40px;
+    width: 343px;
+    height: 259px;
+    background: #ffffff;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 10px;
+  }
+
+  .small-card-four {
+    margin-top: 40px;
+    width: 343px;
+    height: 259px;
+    background: #ffffff;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 10px;
+  }
+
+  .small-card-five {
+    margin-top: 40px;
+    width: 343px;
+    height: 259px;
+    background: #ffffff;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 10px;
+  }
+
+  .small-card-six {
+    margin-top: 40px;
+    width: 343px;
+    height: 259px;
+    background: #ffffff;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 10px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background: #13183f;
+  }
+
+  .footer-text {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35px;
+    color: #ffffff;
+    margin-left: 40px;
+  }
+
+  .footer-button {
+    background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+    border-radius: 28px;
+    width: 140px;
+    height: 48px;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #ffffff;
+    margin-right: 40px;
+  }
+
+  .footer-button:hover {
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+    cursor: pointer;
+  }
+}
+
